@@ -4,7 +4,7 @@ load_dotenv()  # Load environment variables from .env file
 import streamlit as st
 import os
 import sqlite3
-import google.generativeai as genai
+from google import genai
 
 ## Configure our API key
 
